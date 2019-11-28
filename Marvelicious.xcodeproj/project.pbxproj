@@ -40,7 +40,20 @@
 		4503C0FF228E0C0100C47154 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503C0FE228E0C0100C47154 /* ParallaxHeader.swift */; };
 		4503C102228E141800C47154 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503C101228E141800C47154 /* LoaderView.swift */; };
 		4503C104228E142200C47154 /* LoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4503C103228E142200C47154 /* LoaderView.xib */; };
+		45B0A0602390329B00B2DDC5 /* MarveliciousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0A05F2390329B00B2DDC5 /* MarveliciousUITests.swift */; };
+		45B0A068239034A000B2DDC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45B0A067239034A000B2DDC5 /* GoogleService-Info.plist */; };
+		45B0A069239034A000B2DDC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45B0A067239034A000B2DDC5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B0A0622390329B00B2DDC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4503C09F228C75C400C47154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4503C0A6228C75C400C47154;
+			remoteInfo = Marvelicious;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4503C0A7228C75C400C47154 /* Marvelicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvelicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +90,10 @@
 		4503C0FE228E0C0100C47154 /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
 		4503C101228E141800C47154 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		4503C103228E142200C47154 /* LoaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoaderView.xib; sourceTree = "<group>"; };
+		45B0A05D2390329B00B2DDC5 /* MarveliciousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarveliciousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B0A05F2390329B00B2DDC5 /* MarveliciousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarveliciousUITests.swift; sourceTree = "<group>"; };
+		45B0A0612390329B00B2DDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B0A067239034A000B2DDC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		55BEA10176565ACA8D05E182 /* Pods_Marvelicious.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvelicious.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2D7E00146D5B3190A4AE56 /* Pods-Marvelicious.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvelicious.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marvelicious/Pods-Marvelicious.release.xcconfig"; sourceTree = "<group>"; };
 		BFED4DC3FA25047618755FDE /* Pods-Marvelicious.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvelicious.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marvelicious/Pods-Marvelicious.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +108,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45B0A05A2390329B00B2DDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -98,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				4503C0A9228C75C400C47154 /* Marvelicious */,
+				45B0A05E2390329B00B2DDC5 /* MarveliciousUITests */,
 				4503C0A8228C75C400C47154 /* Products */,
 				C0626D0EFC2590061CA79CDE /* Pods */,
 				50859892B1BF0C704DA2C1B3 /* Frameworks */,
@@ -108,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				4503C0A7228C75C400C47154 /* Marvelicious.app */,
+				45B0A05D2390329B00B2DDC5 /* MarveliciousUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +141,7 @@
 		4503C0A9228C75C400C47154 /* Marvelicious */ = {
 			isa = PBXGroup;
 			children = (
+				45B0A067239034A000B2DDC5 /* GoogleService-Info.plist */,
 				4503C0AA228C75C400C47154 /* AppDelegate.swift */,
 				4503C0AC228C75C400C47154 /* ViewController.swift */,
 				4503C0AE228C75C400C47154 /* Main.storyboard */,
@@ -280,6 +307,15 @@
 			path = LoaderView;
 			sourceTree = "<group>";
 		};
+		45B0A05E2390329B00B2DDC5 /* MarveliciousUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45B0A05F2390329B00B2DDC5 /* MarveliciousUITests.swift */,
+				45B0A0612390329B00B2DDC5 /* Info.plist */,
+			);
+			path = MarveliciousUITests;
+			sourceTree = "<group>";
+		};
 		50859892B1BF0C704DA2C1B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,18 +355,40 @@
 			productReference = 4503C0A7228C75C400C47154 /* Marvelicious.app */;
 			productType = "com.apple.product-type.application";
 		};
+		45B0A05C2390329B00B2DDC5 /* MarveliciousUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B0A0662390329B00B2DDC5 /* Build configuration list for PBXNativeTarget "MarveliciousUITests" */;
+			buildPhases = (
+				45B0A0592390329B00B2DDC5 /* Sources */,
+				45B0A05A2390329B00B2DDC5 /* Frameworks */,
+				45B0A05B2390329B00B2DDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B0A0632390329B00B2DDC5 /* PBXTargetDependency */,
+			);
+			name = MarveliciousUITests;
+			productName = MarveliciousUITests;
+			productReference = 45B0A05D2390329B00B2DDC5 /* MarveliciousUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4503C09F228C75C400C47154 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Gaurang Lathiya";
 				TargetAttributes = {
 					4503C0A6228C75C400C47154 = {
 						CreatedOnToolsVersion = 10.2;
+					};
+					45B0A05C2390329B00B2DDC5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4503C0A6228C75C400C47154;
 					};
 				};
 			};
@@ -348,6 +406,7 @@
 			projectRoot = "";
 			targets = (
 				4503C0A6228C75C400C47154 /* Marvelicious */,
+				45B0A05C2390329B00B2DDC5 /* MarveliciousUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -358,12 +417,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4503C104228E142200C47154 /* LoaderView.xib in Resources */,
+				45B0A068239034A000B2DDC5 /* GoogleService-Info.plist in Resources */,
 				4503C0F5228DF94F00C47154 /* Marvel-Regular.ttf in Resources */,
 				4503C0FD228E02F900C47154 /* Dr.Charmed.otf in Resources */,
 				4503C0B5228C75C400C47154 /* LaunchScreen.storyboard in Resources */,
 				4503C0B2228C75C400C47154 /* Assets.xcassets in Resources */,
 				4503C0B0228C75C400C47154 /* Main.storyboard in Resources */,
 				4503C0FB228E02A100C47154 /* DeliusSwashCaps-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B0A05B2390329B00B2DDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B0A069239034A000B2DDC5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,21 +443,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Marvelicious/Pods-Marvelicious-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marvelicious/Pods-Marvelicious-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marvelicious/Pods-Marvelicious-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marvelicious/Pods-Marvelicious-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marvelicious/Pods-Marvelicious-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		75EF6C4D8215D47CE22859B3 /* [CP] Check Pods Manifest.lock */ = {
@@ -445,7 +508,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45B0A0592390329B00B2DDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B0A0602390329B00B2DDC5 /* MarveliciousUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45B0A0632390329B00B2DDC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4503C0A6228C75C400C47154 /* Marvelicious */;
+			targetProxy = 45B0A0622390329B00B2DDC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4503C0AE228C75C400C47154 /* Main.storyboard */ = {
@@ -592,7 +671,10 @@
 				DEVELOPMENT_TEAM = E2C6PCWH4E;
 				INFOPLIST_FILE = Marvelicious/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.g212gs.Marvelicious;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -609,11 +691,54 @@
 				DEVELOPMENT_TEAM = E2C6PCWH4E;
 				INFOPLIST_FILE = Marvelicious/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.g212gs.Marvelicious;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45B0A0642390329B00B2DDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2C6PCWH4E;
+				INFOPLIST_FILE = MarveliciousUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.g212gs.MarveliciousUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marvelicious;
+			};
+			name = Debug;
+		};
+		45B0A0652390329B00B2DDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2C6PCWH4E;
+				INFOPLIST_FILE = MarveliciousUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.g212gs.MarveliciousUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marvelicious;
 			};
 			name = Release;
 		};
@@ -634,6 +759,15 @@
 			buildConfigurations = (
 				4503C0BA228C75C400C47154 /* Debug */,
 				4503C0BB228C75C400C47154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45B0A0662390329B00B2DDC5 /* Build configuration list for PBXNativeTarget "MarveliciousUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B0A0642390329B00B2DDC5 /* Debug */,
+				45B0A0652390329B00B2DDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

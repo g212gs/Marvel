@@ -8,6 +8,7 @@
 
 import UIKit
 import Kingfisher
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.initUI()
         // Remove cache data
         self.setUpImageCacheRemoval()
+        // Init Firebase
+        FirebaseApp.configure()
         return true
     }
 

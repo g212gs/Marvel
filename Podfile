@@ -9,4 +9,5 @@ target 'Marvelicious' do
   pod 'SwiftyJSON' # JSON Helper # License: MIT
   pod 'ReachabilitySwift' # For Internet Connection Checking  # License: MIT
   pod 'Kingfisher' # For Image downloading # License: MIT
+  pod 'Firebase/Analytics'
 end
